@@ -1,0 +1,26 @@
+.App {
+  background-color: #111111;
+  color:#fff;
+}
+body{
+  background-color: #111111;
+  color:#fff;
+
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffcd00 #111111;
+}
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+  height:5px;
+}
+*::-webkit-scrollbar-track {
+  background: #111111;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #ffcd00;
+  border-radius: 20px;
+}

@@ -1,0 +1,95 @@
+const styles = (theme) => ({
+  navroot: {
+    // background: [theme.primary],
+    // position: "relative",
+    // top: 0,
+    // left: 0,
+    // width: "100%",
+    // padding: "1em 2em",
+    // zIndex: 1,
+    // background: "#040f16",
+    // position: "fixed",
+    position: "fixed",
+    width: "100%",
+    zIndex: "11",
+  },
+  nav_links: {
+    height: 0,
+    // overflow: "hidden",
+    transition: "all 0.3s ease",
+    // marginTop: "0.5em",
+    // margin: "0 60px",
+
+    // backgroundColor: "red",
+    "& a": {
+      display: "block",
+      transition: "all 0.3s ease-in",
+      fontSize: "1rem",
+      fontWeight: 600,
+      letterSpacing: "3px",
+      textAlign: "center",
+      textDecoration: "none",
+      "&:hover ": {
+        color: "#ffcd00",
+      },
+      "& ul": {
+        listStyle: "none",
+      },
+    },
+  },
+  nav_linksdiv: {
+    display: "flex",
+    justifyContent: "space-between",
+    backgroundColor: "#111111",
+    height: "70px",
+    alignItems: "center",
+  },
+  nav_logo: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  logo: {
+    color: "#ffcd00",
+    fontWeight: 600,
+    margin: "0 0",
+    fontSize: "2rem",
+    fontFamily: "Poppins,sans-serif",
+    marginLeft: "60px",
+  },
+  nav_linksul: {
+    // height: 0,
+    // overflow: "hidden",
+    transition: "all 0.3s ease",
+    // marginTop: "0.5em",
+    listStyle: "none",
+    display: "flex",
+    width: "40%",
+    fontFamily: "Poppins,sans-serif",
+    marginRight: "80px",
+    justifyContent: "space-between",
+    // textTransform: "uppercase",
+    "& a": {
+      color: "#fff",
+      display: "block",
+      transition: "all 0.3s ease-in",
+      fontSize: "1rem",
+      fontWeight: 600,
+      letterSpacing: "3px",
+      textAlign: "center",
+      textDecoration: "none",
+      "&:hover ": {
+        color: "#ffcd00",
+      },
+      "& ul": {
+        listStyle: "none",
+        "& li": {
+          textTransform: "uppercase",
+          listStyle: "none",
+        },
+      },
+    },
+  },
+});
+
+export default styles;
