@@ -28,7 +28,7 @@ const Home = (props) => {
             <img src={imgresponsive} alt="pic" />
 
             <h1>
-              I'M STEVE MILNER.
+              I'M JOHN DOE.
               <span> WEB DESIGNER</span>
             </h1>
             <p>

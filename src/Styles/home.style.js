@@ -52,7 +52,7 @@ const styles = (theme) => ({
   },
   secondBox: {
     color: "#fff",
-    maxWidth: "600px",
+    maxWidth: "555px",
     margin: "0 auto",
     "& h1": {
       fontSize: "51px",
